@@ -109,7 +109,9 @@ https://github.com/user-attachments/assets/f95e93df-610c-4d37-9180-06777f6f3c17
 
 This matches the result obtained independently via John the Ripper in PM1 — confirming the same underlying PDF encryption/hash scheme is being attacked both ways, just through a different tool.
 
+
 ---
+
 
 ## Key takeaways
 
@@ -119,6 +121,17 @@ This matches the result obtained independently via John the Ripper in PM1 — co
 
 - A locally-run CLI tool (JTR) and a browser-based tool (Networkwalks) can arrive at the same cracked password — the difference is control/speed/offline capability (JTR) vs. convenience/no-install (Networkwalks).
 
+---
+
+## Screenshots-PDF-Result
+
+<img width="670" height="867" alt="Screenshot 2026-09-26 at 12 21 48 AM" src="https://github.com/user-attachments/assets/418f4155-1ecd-4942-9936-56d656e8555c" />
+
+<img width="616" height="872" alt="Screenshot 2026-09-26 at 12 22 15 AM" src="https://github.com/user-attachments/assets/a340032d-f34e-44e7-ada4-e34b94c30431" />
+
+<img width="512" height="663" alt="Screenshot 2026-09-26 at 12 23 19 AM" src="https://github.com/user-attachments/assets/bc845f8d-db44-49c2-935e-8d5df816f1d9" />
+
+---
 
 ## Tools referenced
 
