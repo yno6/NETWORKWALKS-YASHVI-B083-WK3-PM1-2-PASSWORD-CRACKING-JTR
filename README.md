@@ -99,9 +99,10 @@ This matches the result obtained independently via John the Ripper in PM1 — co
 ## Key takeaways
 
 - A PDF's password hash (`$pdf$4*4*128*...`) encodes the PDF version, revision, key length, permissions, and the actual crypto material needed to verify a guessed password — that's what both John and the Networkwalks tools parse and attack.
-- `password1` and `1qaz2wsx` are both extremely common/weak passwords (keyboard-walk and dictionary-word patterns), which is exactly why a *default* wordlist cracked them instantly with no customization needed.
-- A locally-run CLI tool (JTR) and a browser-based tool (Networkwalks) can arrive at the same cracked password — the difference is control/speed/offline capability (JTR) vs. convenience/no-install (Networkwalks).
 
+- `password1` and `1qaz2wsx` are both extremely common/weak passwords (keyboard-walk and dictionary-word patterns), which is exactly why a *default* wordlist cracked them instantly with no customization needed.
+
+- A locally-run CLI tool (JTR) and a browser-based tool (Networkwalks) can arrive at the same cracked password — the difference is control/speed/offline capability (JTR) vs. convenience/no-install (Networkwalks).
 
 
 ## Tools referenced
