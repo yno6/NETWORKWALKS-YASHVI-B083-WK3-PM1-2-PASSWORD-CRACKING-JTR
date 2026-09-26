@@ -4,6 +4,7 @@ Cybersecurity & Ethical Hacking — Week 3 project tasks, covering two methods f
 
 > ⚠️ **Ethical use only.** These exercises were performed on sample PDF files provided by NetworkWalks, on my own machine, purely to learn how password/hash cracking works and why weak passwords are risky. Never run these techniques against files, accounts, or systems you don't own or have explicit permission to test.
 
+
 ## Background
 
 Files like PDF, ZIP, and Office documents can be password-protected. The password itself usually isn't stored — instead a **hash** (a scrambled, one-way representation of the password) is embedded in the file. Cracking the password means extracting that hash and testing candidate passwords against it until one produces a match.
@@ -31,6 +32,8 @@ Two things this lab makes concrete:
    ```bash
    brew install john-jumbo
    ```
+<img width="1168" height="819" alt="installJTR" src="https://github.com/user-attachments/assets/fdc6e98d-3784-4790-9e80-d1e9dcfc8389" />
+
 
 2. **Extract the hash from each locked PDF** using the `pdf2john.pl` script bundled with John:
    ```bash
@@ -61,9 +64,10 @@ Two things this lab makes concrete:
 | `My Locked PDF2.pdf` | `password1` | Wordlist (`password.lst`) |
 | `My Locked PDF3.pdf` | `1qaz2wsx` | Wordlist (`password.lst`) |
 
-All three were cracked in under 1 second against a stock wordlist — none required brute force.
 
-See [`screenshots/`](./screenshots) for terminal output.
+<img width="1285" height="840" alt="finalcode-passbreakJTR" src="https://github.com/user-attachments/assets/e93a8e41-185a-4967-9eac-3986fc49a387" />
+
+All three were cracked in under 1 second against a stock wordlist — none required brute force.
 
 ---
 
@@ -85,6 +89,8 @@ See [`screenshots/`](./screenshots) for terminal output.
 | File | Cracked password |
 |---|---|
 | `My Locked PDF1.pdf` | `password1` |
+
+https://github.com/user-attachments/assets/f95e93df-610c-4d37-9180-06777f6f3c17
 
 This matches the result obtained independently via John the Ripper in PM1 — confirming the same underlying PDF encryption/hash scheme is being attacked both ways, just through a different tool.
 
