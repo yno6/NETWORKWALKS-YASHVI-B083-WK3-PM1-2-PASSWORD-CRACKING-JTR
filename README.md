@@ -1,6 +1,21 @@
+<div>
+   
 # Password Cracking Lab
 
-Cybersecurity & Ethical Hacking — Week 3 project tasks, covering two methods for recovering a password from a locked PDF file: an offline CLI tool (John the Ripper) and a browser-based online tool (Networkwalks Hash Calculator + Password Cracker).
+Cybersecurity & Ethical Hacking — covering two methods for recovering a password from a locked PDF file: an offline CLI tool (John the Ripper) and a browser-based online tool (Networkwalks Hash Calculator + Password Cracker).
+
+</div>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Skill-Cybersecurity-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/Skill-Password%20Cracking-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/Skill-Hash%20Cracking-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/John%20the%20Ripper-JTR-404040?style=flat-square&labelColor=0070C0" />
+  <img src="https://img.shields.io/badge/Tool-pdf2john-404040?style=flat-square&labelColor=0070C0" />
+  <img src="https://img.shields.io/badge/NetworkWalks-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/Skill-PDF%20Security-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/macOS-Apple%20Silicon-404040?style=flat-square&labelColor=000000&logo=apple&logoColor=white" />
+</p>
 
 > ⚠️ **Ethical use only.** These exercises were performed on sample PDF files provided by NetworkWalks, on my own machine, purely to learn how password/hash cracking works and why weak passwords are risky. Never run these techniques against files, accounts, or systems you don't own or have explicit permission to test.
 
