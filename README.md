@@ -1,6 +1,6 @@
 <div>
    
-# PASSWORD CRACKING LAB
+# Password Cracking Lab
 
 Cybersecurity & Ethical Hacking — covering two methods for recovering a password from a locked PDF file: an offline CLI tool (John the Ripper) and a browser-based online tool (Networkwalks Hash Calculator + Password Cracker).
 
